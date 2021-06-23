@@ -42,7 +42,7 @@ def main(le_bord):
             take_input("O")
         counter += 1
         if counter > 4:
-            tmp = check_win(board)
+            tmp = check_win(le_bord)
             if tmp:
                 print (tmp, "La victiore est avec toi!")
                 win = True
@@ -53,5 +53,3 @@ def main(le_bord):
     draw_board(le_bord)
 
 main(le_bord)
-
-
